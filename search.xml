@@ -7,14 +7,17 @@
 <a id="more"></a>
 <h3 id="hexo安装">hexo安装</h3>
 <ul>
-<li><p>npm install -g hexo:安装hexo</p></li>
-<li><p>cd hexo</p></li>
-<li><p>hexo init:初始化 ### hexo常用命令</p></li>
-<li><p>hexo n name：创建新的博客</p></li>
-<li><p>hexo clean:清除缓存等</p></li>
-<li><p>hexo g:生成html文件</p></li>
-<li><p>hexo s:本地预览</p></li>
-<li><p>hexo d:提交</p></li>
+<li>npm install -g hexo:安装hexo</li>
+<li>cd hexo</li>
+<li>hexo init:初始化</li>
+</ul>
+<h3 id="hexo常用命令">hexo常用命令</h3>
+<ul>
+<li>hexo n name：创建新的博客</li>
+<li>hexo clean:清除缓存等</li>
+<li>hexo g:生成html文件</li>
+<li>hexo s:本地预览</li>
+<li>hexo d:提交</li>
 </ul>
 ]]></content>
   </entry>
