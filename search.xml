@@ -1,6 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数学</title>
+    <url>/2020/10/27/%E6%95%B0%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="考研数学真题遇到的考点">考研数学真题遇到的考点</h1>
+<a id="more"></a>
+<h3 id="高等数学">高等数学</h3>
+<ul>
+<li><p>极限，导数相关的存在问题，选择题</p></li>
+<li><p>定义证明导数存在</p></li>
+<li><p>高斯公式 （注意函数定义是否成立，如分母为0的情况）</p></li>
+<li><p><span class="math display">\[
+\oiint_{\Omega}Pdydz+Qdzdx+Rdxdy=\iiint_{\Omega}（\frac{\partial{P}}{\partial{x}}+\frac{\partial{Q}}{\partial{y}}+\frac{\partial{R}}{\partial{z}}）dxdydz
+\]</span></p></li>
+<li><p>格林公式</p></li>
+<li><p><span class="math display">\[
+\oint_{\Omega}Pdx+Qdy=\iint_{\Omega}(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}})dxdy
+\]</span></p></li>
+<li><p>重积分，积分区域辨别</p></li>
+<li><p>约束条件，拉格朗日函数</p></li>
+<li><p>收敛：单调有界</p></li>
+<li><p>泰勒公式</p></li>
+<li><p>重积分变元替换</p></li>
+<li><p>线性齐次微分方程</p></li>
+<li><p>等价无穷小 limit = 1</p></li>
+<li><p>积分中的对称性简化</p></li>
+<li><p>多元函数最大值（边界点），最小值(驻点)</p></li>
+<li><p>泰勒展开式还原到原函数</p></li>
+<li><p>傅里叶级数展开</p></li>
+<li><p>幂级数收敛半径</p></li>
+<li><p><span class="math display">\[
+\sum_{n=0}^{\infin}a_nx^n
+\]</span> <span class="math display">\[
+考察\lim_{n=\infin}^{——}\sqrt[n]{|a_nx^n|}=\lim_{n=\infin}^{——}{\sqrt[n]{|a_n|}|x|}：
+\]</span> <span class="math display">\[
+大于1，那么发散，小于1，收敛
+\]</span> <span class="math display">\[
+{\rho}=\frac{1}{\sqrt[n]{|a_n|}}=\frac{1}{lim|\frac{a_{n+1}}{a_n}|}
+\]</span></p></li>
+<li><p>幂级数 <span class="math inline">\(\sum_{n=1}^{\infin}{a_n(bx-c)^n}\)</span>，此时若收敛域为<span class="math inline">\([x_1,x_2)\)</span>，且满足<span class="math inline">\(\frac{x_1+x_2}{2}b=c\)</span>，则收敛半径为<span class="math inline">\(\frac{x_2-x_1}{2}|b|\)</span>.</p></li>
+<li><p>多元函数求极值，极小值主子式大于0，极大值偶数主子式大于0，奇数主子式小于0</p></li>
+<li><p>反常积分的收敛性</p></li>
+<li><p><span class="math display">\[
+对于瑕点x=a：
+\]</span> <span class="math display">\[
+绝对收敛：|f(x)|&lt;=\frac{C}{(x-a)^q},0&lt;=q&lt;1
+\]</span> <span class="math display">\[
+发散：|f(x)|&gt;=\frac{C}{(x-a)^q},q&gt;=1
+\]</span> <span class="math display">\[
+推论：可以通过左乘分母求极限，进行判断
+\]</span></p></li>
+<li><p>积分上限函数求导时推荐优先将求导的变量单独分离出积分项，然后再求导</p></li>
+<li><p>面积积分 <span class="math inline">\(dS=\sqrt{1+z_x^2+z_y^2}dxdy\)</span>.</p></li>
+</ul>
+<h3 id="解析几何">解析几何</h3>
+<ul>
+<li>点面距离</li>
+<li>渐近线</li>
+<li>绕x轴旋转，则y变成 <span class="math inline">\(\sqrt{y^2+z^2}\)</span></li>
+</ul>
+<hr />
+<h3 id="线性代数">线性代数</h3>
+<ul>
+<li><p>行列式与矩阵初等变换的差异</p></li>
+<li><p>属于秩的几个不等式</p></li>
+<li><p><span class="math display">\[
+r(A+B)&lt;=r(A)+r(B);
+\]</span> <span class="math display">\[
+r(AB)&lt;=min{\{r(A),r(B)\}};
+\]</span> <span class="math display">\[
+r(AB)&gt;=r(A)+r(B)-n;(n为A列B行)
+\]</span></p></li>
+<li><p>特征值<span class="math inline">\(\lambda\)</span>,特征向量x: <span class="math inline">\(Ax={\lambda}x\)</span></p></li>
+<li><p>特征向量已知其一，可推余二，利用之间正交的关系</p></li>
+<li><p>方程通解，基础解系</p></li>
+<li><p>合同 <span class="math inline">\(B=T^TAT\)</span> ；秩不变</p></li>
+<li><p><span class="math display">\[
+求合同矩阵T的一种方法
+\]</span> <span class="math display">\[
+\left[\begin{matrix} A\\I \end{matrix}\right]对A成对作初等行、列变换，对I只作初等列变换，进而得到\left[\begin{matrix} B\\T \end{matrix}\right]
+\]</span></p></li>
+<li></li>
+<li><p>相似 <span class="math inline">\(B=T^{-1}AT\)</span> ；行列式不变，秩不变，迹不变，特征值不变，特征多项式不变</p></li>
+<li><p>实对称矩阵，相似必合同</p></li>
+<li><p>等价即秩相同，合同即特征值正负个数相同</p></li>
+<li><p>实对称矩阵: B=T<sup>-1</sup>AT(其中T为特征向量为列向量组成的矩阵，B为特征值组成的对角阵)，而A<sup>n</sup>=TB<sup>n</sup>T<sup>-1</sup></p></li>
+<li><p>过渡矩阵T</p></li>
+<li><p><span class="math display">\[
+基变换矩阵：(\eta_1,\eta_2,...\eta_n)=(\epsilon_1,\epsilon_2,...\epsilon_n)T
+\]</span> <span class="math display">\[
+坐标变换矩阵：X^{\epsilon}=TX^{\eta}
+\]</span></p></li>
+<li><p>二次项（对应实对称矩阵）的标准型不惟一，规范型唯一</p></li>
+<li><p>正交矩阵</p></li>
+<li><p><span class="math display">\[
+AA&#39;=A&#39;A=I
+\]</span> <span class="math display">\[
+A^{-1}=A&#39;
+\]</span></p></li>
+<li></li>
+</ul>
+<hr />
+<h3 id="概率论与数理统计">概率论与数理统计</h3>
+<ul>
+<li><p>摸球案例，不放回与放回（可重复），相当于多次实验，而一次摸多球，则可以用组合数公式 <span class="math inline">\(C_n^m=\frac{n!}{m!(n-m)!}\)</span> 列举可能性个数</p></li>
+<li><p>均匀分布 <span class="math inline">\(X{\sim}U(a,b);E(X)=\frac{a+b}{2};D(X)=\frac{(a+b)^2}{12}\)</span></p></li>
+<li><p>条件概率 <span class="math inline">\(P(A|B)=\frac{P(AB)}{P(B)}\)</span></p></li>
+<li><p>正态分布</p></li>
+<li><p><span class="math display">\[
+X{\sim}N(\mu,{\sigma}^2)
+\]</span> <span class="math display">\[
+均值E(X)=\mu\\方差D(X)={\sigma}^2
+\]</span></p></li>
+<li><p>卡方分布</p></li>
+<li><p><span class="math display">\[
+{\chi}^2=X_1^2+X_2^2+...X_n^2——记为{\chi}^2\sim{\chi}^2(n)
+\]</span> <span class="math display">\[
+E({\chi}^2)=n\\D({\chi}^2)=2n
+\]</span></p></li>
+<li></li>
+<li><p>二项分布 <span class="math inline">\(X{ \sim }b(n,p);E(X)=n p;D(X)=n p(1-p)\)</span></p></li>
+<li><p>泊松分布</p></li>
+<li><p><span class="math display">\[
+X{\sim}{\pi}(\lambda)
+\]</span> <span class="math display">\[
+P(X=k)=\frac{ {\lambda}^ke^{-\lambda} }{k!},k=0,1,2...
+\]</span> <span class="math display">\[
+均值EX=\lambda
+\]</span> <span class="math display">\[
+方差DX=\lambda
+\]</span></p></li>
+<li><p>概率密度<em>f</em>(x)反函数公式法</p></li>
+<li><p><span class="math display">\[
+Y=g(X),g&#39;(x)&gt;0恒成立(或g&#39;(x)&lt;0恒成立),-{\infin}&lt;x&lt;{\infin}
+\]</span> <span class="math display">\[
+f_Y(y)=f_X[h(y)]|h&#39;(y)|,\alpha&lt;y&lt;\beta,(其他为0)
+\]</span></p></li>
+<li><p>分布函数F(x)——对应某个范围概率</p></li>
+<li><p>最大似然估计，构建拉格朗日函数<span class="math inline">\(L(\theta)=L(x_1,x_2,...x_n:\theta)=\prod{f(x_i,\theta)}\)</span>求导</p></li>
+<li><p>矩估计</p></li>
+<li><p><span class="math display">\[
+{\mu}_l=E(X^l)=\int_{-\infin}^{\infin}x^lf(x;{\theta}_1,...{\theta}_n)dx
+\]</span> <span class="math display">\[
+l为阶数，多方程联立，可求出估计值\theta
+\]</span></p></li>
+<li><p><span class="math display">\[
+E(X^2)=D(X)+[E(X)]^2
+\]</span> <span class="math display">\[
+D(X_1+X_2)=D(X_1)+D(X_2)
+\]</span></p></li>
+<li><p>无偏估计 <span class="math inline">\(E(X)=\theta\)</span>，则可称X是<span class="math inline">\({\theta}\)</span>的无偏估计</p></li>
+<li><p><span class="math display">\[
+E(\overline{x})=\mu
+\]</span> <span class="math display">\[
+E(S^2)={\sigma}^2
+\]</span> <span class="math display">\[
+D(\overline{x})=\frac{D(X)}{n}
+\]</span> <span class="math display">\[
+正态分布:
+\]</span> <span class="math display">\[
+1. \overline{X}=N(\mu,\frac{ {\sigma}^2}{n} )
+\]</span> <span class="math display">\[
+2. \sqrt{n}*\frac{\overline{X}-\mu}{\sigma}=N(0,1)
+\]</span> <span class="math display">\[
+3. \frac{(n-1)S^2}{ {\sigma}^2}\sim{\chi}^2(n-1)
+\]</span></p></li>
+<li></li>
+<li><p>概率的图解法</p></li>
+<li><p><span class="math display">\[
+f_{X+Y}=\int_{-\infin}^{\infin}f(z-y,y)dy
+\]</span> <span class="math display">\[
+f_{X+Y}=\int_{-\infin}^{\infin}f(x,z-x)dx
+\]</span> <span class="math display">\[
+X,Y相互独立
+\]</span> <span class="math display">\[
+f_{X+Y}(z)=\int_{-\infin}^{\infin}f_X(z-y)f_Y(y)dy
+\]</span> <span class="math display">\[
+f_{X+Y}(z)=\int_{-\infin}^{\infin}f_X(x)f_Y(z-x)dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+X_1,X_2...相互独立且具有相同分布函数F(x)
+\]</span> <span class="math display">\[
+F_{max}(z)=[F(z)]^2
+\]</span> <span class="math display">\[
+F_{min}(z)=1-[1-F(z)]^n
+\]</span></p></li>
+<li><p>协方差</p></li>
+<li><p><span class="math display">\[
+Cov(X,Y)=E{[X-E(X)][Y-E(Y)]}=E(XY)-E(X)E(Y)
+\]</span> <span class="math display">\[
+Cov(X,X)=D(X)
+\]</span></p></li>
+<li><p>相关系数</p></li>
+<li><p><span class="math display">\[
+{\rho}_{XY}=\frac{Cov(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}
+\]</span></p></li>
+<li></li>
+</ul>
+<hr />
+<h3 id="注意事项">注意事项</h3>
+<ul>
+<li>判断除数是否是0，常引起解答出错，缺项漏项</li>
+<li>一些定理的证明：拉格朗日中值定理，柯西中值定理</li>
+<li>在碰到复杂的面积积分的时候，答案往往是十分巧合的，需大胆假设，小心求证，进行抵消，约分等</li>
+<li>构造函数：</li>
+</ul>
+<ol type="1">
+<li>多个等式尝试做差，联想罗尔定理</li>
+<li></li>
+</ol>
+<hr />
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/09/12/hello-world/</url>
     <content><![CDATA[<h1 id="第一个博客虽然大多是抄的但总体感觉还是挺简单的">第一个博客，虽然大多是抄的，但总体感觉，还是挺简单的！</h1>
