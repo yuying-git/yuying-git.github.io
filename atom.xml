@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-28T11:08:02.056Z</updated>
+  <updated>2020-11-02T12:40:04.912Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="http://example.com/2020/10/27/%E6%95%B0%E5%AD%A6/"/>
     <id>http://example.com/2020/10/27/%E6%95%B0%E5%AD%A6/</id>
     <published>2020-10-27T05:13:08.000Z</published>
-    <updated>2020-10-28T11:08:02.056Z</updated>
+    <updated>2020-11-02T12:40:04.912Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;考研数学真题遇到的考点&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#考研数学真题遇到的考点&quot;&gt;&lt;/a&gt; 考研数学真题遇到的考点&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;考研数学真题遇到的考点&quot;&gt;考研数学真题遇到的考点&lt;/h1&gt;</summary>
     
     
     
