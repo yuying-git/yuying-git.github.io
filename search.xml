@@ -43,7 +43,7 @@
 \]</span> <span class="math display">\[
 {\rho}=\frac{1}{\sqrt[n]{|a_n|}}=\frac{1}{lim|\frac{a_{n+1}}{a_n}|}
 \]</span></p></li>
-<li><p>幂级数 <span class="math inline">\(\sum_{n=1}^{\infin}{a_n(bx-c)^n}\)</span>，此时若收敛域为<span class="math inline">\([x_1,x_2)\)</span>，且满足<span class="math inline">\(\frac{x_1+x_2}{2}b=c\)</span>，则收敛半径为<span class="math inline">\(\frac{x_2-x_1}{2}|b|\)</span>.</p></li>
+<li><p>幂级数 <span class="math inline">\(\sum_{n=1}^{\infty}{a_n(bx-c)^n}\)</span>，此时若收敛域为<span class="math inline">\([x_1,x_2)\)</span>，且满足<span class="math inline">\(\frac{x_1+x_2}{2}b=c\)</span>，则收敛半径为<span class="math inline">\(\frac{x_2-x_1}{2}|b|\)</span>.</p></li>
 <li><p>多元函数求极值，极小值主子式大于0，极大值偶数主子式大于0，奇数主子式小于0</p></li>
 <li><p>反常积分的收敛性</p></li>
 <li><p><span class="math display">\[
@@ -196,15 +196,15 @@ D(\overline{x})=\frac{D(X)}{n}
 <li></li>
 <li><p>概率的图解法</p></li>
 <li><p><span class="math display">\[
-f_{X+Y}=\int_{-\infin}^{\infin}f(z-y,y)dy
+f_{X+Y}=\int_{-\infty}^{\infty}f(z-y,y)dy
 \]</span> <span class="math display">\[
-f_{X+Y}=\int_{-\infin}^{\infin}f(x,z-x)dx
+f_{X+Y}=\int_{-\infty}^{\infty}f(x,z-x)dx
 \]</span> <span class="math display">\[
 X,Y相互独立
 \]</span> <span class="math display">\[
-f_{X+Y}(z)=\int_{-\infin}^{\infin}f_X(z-y)f_Y(y)dy
+f_{X+Y}(z)=\int_{-\infty}^{\infty}f_X(z-y)f_Y(y)dy
 \]</span> <span class="math display">\[
-f_{X+Y}(z)=\int_{-\infin}^{\infin}f_X(x)f_Y(z-x)dx
+f_{X+Y}(z)=\int_{-\infty}^{\infty}f_X(x)f_Y(z-x)dx
 \]</span></p></li>
 <li><p><span class="math display">\[
 X_1,X_2...相互独立且具有相同分布函数F(x)
