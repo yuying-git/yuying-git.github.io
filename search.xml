@@ -1,23 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/09/12/hello-world/</url>
-    <content><![CDATA[<h1 id="第一个博客虽然大多是抄的但总体感觉还是挺简单的">第一个博客，虽然大多是抄的，但总体感觉，还是挺简单的！</h1>
+    <title>理论力学</title>
+    <url>/2020/11/10/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="理论力学知识点">理论力学知识点</h1>
 <a id="more"></a>
-<h3 id="hexo安装">hexo安装</h3>
+<h3 id="一.静力学">一.静力学</h3>
 <ul>
-<li>npm install -g hexo:安装hexo</li>
-<li>cd hexo</li>
-<li>hexo init:初始化</li>
+<li>静力学公理：</li>
 </ul>
-<h3 id="hexo常用命令">hexo常用命令</h3>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">平行四边形法则</span><br><span class="line">二力平衡公理：二力杆，同一作用线，大小相等，方向相反</span><br><span class="line">加减平衡力学公理：加减一个平衡力系作用情况不变</span><br><span class="line">推论<span class="number">1</span>:力的可传性：作用点可沿作用线移动（仅适用于刚体）</span><br><span class="line">推论<span class="number">2</span>:三力汇交力学平衡（可转化为首尾相连三角形）</span><br><span class="line">作用力反作用力，看作整体时为内力</span><br><span class="line">刚化原理：弹性体力学平衡时看作刚体</span><br></pre></td></tr></table></figure>
 <ul>
-<li>hexo n name：创建新的博客</li>
-<li>hexo clean:清除缓存等</li>
-<li>hexo g:生成html文件</li>
-<li>hexo s:本地预览</li>
-<li>hexo d:提交</li>
+<li>力系分类</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">共点力系</span><br><span class="line">平行力系</span><br><span class="line">平面力系</span><br><span class="line">空间任意力系</span><br></pre></td></tr></table></figure>
+<ul>
+<li>力与轴共面时力矩为0</li>
+<li>力系等效：主向量相等，对同一点的主矩相等</li>
+<li>在力的等效时，需注意力的作用对象必须是同一个</li>
+<li>力偶：大小相等，方向相反，作用线平行的力组成的力系，其主矩与矩心无关，L=Fd</li>
+<li>平衡力系：主向量，主矩都等于0</li>
+<li>不同点力矩关系：<span class="math inline">\(L_O=L_A+\vec{OA}{\times}\vec{R}\)</span>,R为主向量，推论：主向量为0时，对任意点主矩相等</li>
+<li>不变量：1. R；2. L<span class="math inline">\(\cdot\)</span>R</li>
+<li>平行力系中心=&gt;重心（另有质心，形心）</li>
+<li>固定铰：力矩存在</li>
+<li>固定铰：力沿杆，无力矩</li>
+<li>桁架结构：杆件数m，节点数n，约束反力数l，若m+l=2 n，可求解。方法：1. 截面法；2. 节点法</li>
+<li>对称问题，对称力大小相等</li>
+<li>平面力系平衡问题： <span class="math display">\[
+\sum{F}_x=0;
+\sum{F}_y=0;
+\sum{m}_z=0.\\
+\sum{m}_A=0;
+\sum{m}_B=0;
+\sum{m}_C=0.\\
+\sum{m}_A=0;
+\sum{m}_B=0;
+\sum{F}_L=0.
+L_0为与AB不垂直的单位向量，F_L是在L_0上的投影
+\]</span></li>
+<li>空间力系平衡问题： <span class="math display">\[
+\sum{F}_x=0;
+\sum{F}_y=0;
+\sum{F}_z=0;\\
+\sum{m}_x=0;
+\sum{m}_y=0;
+\sum{m}_z=0.
+\]</span></li>
+<li>空间力偶系F条件自动成立</li>
+<li>空间共点力系m条件自动成立</li>
+<li>平行于某一根轴时，去掉两个异向力，一个共面力矩</li>
+<li>静定条件：未知数与独立方程数相同</li>
+<li>力在摩擦角内自锁</li>
+<li>绳索中张力沿切线方向，无力矩，不可伸长</li>
+<li>分布力分段积分处理</li>
+</ul>
+<h3 id="二.点的运动学">二.点的运动学</h3>
+<ul>
+<li>曲率，曲率半径:直角坐标系<span class="math inline">\(\rho=\frac{(1+y&#39;^2)^{3/2}}{|y&quot;|}\)</span>.</li>
+<li>圆周运动 <span class="math display">\[
+v_{\tau}=\dot{s};
+a_{\tau}=\ddot{s};
+a_n=\frac{v^2}{R}.
+\]</span></li>
+<li>轮子无滑动滚动时，轮子上与地面接触的那一点瞬时速度为0.</li>
+<li>速度是坐标变换下的不变量</li>
+<li>极坐标单位基向量的导数公式：<span class="math inline">\(\frac{d{\rho}_0}{dt}=\dot{\phi}{\phi}_0,\frac{d{\phi}_0}{dt}=-\dot{\phi}{\rho}_0\)</span>.</li>
+<li>开普勒定律</li>
+<li>极坐标方程：<span class="math inline">\(\rho=\frac{p}{1+e\cos{(\phi)}}\)</span>,此为右焦点，e为离心率，e=c/a，p为半通径（自焦点垂线长度一半）。</li>
+<li>球坐标——好难啊！</li>
+</ul>
+<h3 id="三.刚体运动和复合运动">三.刚体运动和复合运动</h3>
+<ul>
+<li>平动，绕轴转动</li>
+<li>纯滚动时轮心速度等于半径乘以角速度</li>
+<li>平面运动刚体上任意两点速度在连线上的投影相等</li>
+<li>刚体上瞬时速度为0的点称为速度瞬心，亦是瞬时转动中心，简称瞬心</li>
+<li>加速度分布公式 <span class="math inline">\(a=a_0+\epsilon{\times}r+\omega{\times}(\omega{\times}r)+2\omega{\times}v_r\)</span>.</li>
+<li>瞬心在固定系中的轨迹叫做定瞬心线或空间极迹</li>
+<li>瞬心在固连参考系中的轨迹叫做动瞬心线或本体极迹</li>
+<li>欧拉角：进动角，章动角，自转角</li>
+<li>有限角位移不是向量，无限小角位移是矢量</li>
+</ul>
+<h3 id="四.质点动力学">四.质点动力学</h3>
+<ul>
+<li>牛顿三定律</li>
+<li>三个宇宙速度</li>
+<li>弹簧，振动理论：受迫，阻尼</li>
+<li>首次积分守恒定理（律）</li>
+<li>动量定理，冲量定理，动量守恒</li>
+<li>动量矩定理，冲量矩定理，动量矩守恒</li>
+<li>动能定理，机械能守恒</li>
+<li>相平面方法，纵坐标v，横坐标x，多用于振动</li>
+<li>势能极小值，稳定平衡，势能极大值或拐点，不稳定平衡</li>
+<li>V=V(q)，<span class="math inline">\(T=\frac{1}{2}f(q)\dot{q}^2\)</span>,只受保守力，平衡位置微振动频率<span class="math inline">\(\omega=\sqrt{\frac{V&quot;(a)}{f(a)}}\)</span>,q=a处为平衡位置.</li>
+<li>有心力运动，离心势能</li>
+<li>开普勒轨道能量问题</li>
+<li>约束运动：单面约束，双面约束；非定常约束，定常约束</li>
+</ul>
+<h3 id="五.动量定理">五.动量定理</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="六.动量矩定理">六.动量矩定理</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="七.能量定理">七.能量定理</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="八.非惯性参考系中的动力学">八.非惯性参考系中的动力学</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="九.刚体动力学">九.刚体动力学</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="十.分析力学初步">十.分析力学初步</h3>
+<ul>
+<li></li>
 </ul>
 ]]></content>
   </entry>
@@ -263,103 +366,23 @@ Cov(X,X)=D(X)
 ]]></content>
   </entry>
   <entry>
-    <title>理论力学</title>
-    <url>/2020/11/10/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="理论力学知识点">理论力学知识点</h1>
+    <title>Hello World</title>
+    <url>/2020/09/12/hello-world/</url>
+    <content><![CDATA[<h1 id="第一个博客虽然大多是抄的但总体感觉还是挺简单的">第一个博客，虽然大多是抄的，但总体感觉，还是挺简单的！</h1>
 <a id="more"></a>
-<h3 id="一.静力学">一.静力学</h3>
+<h3 id="hexo安装">hexo安装</h3>
 <ul>
-<li>静力学公理：</li>
+<li>npm install -g hexo:安装hexo</li>
+<li>cd hexo</li>
+<li>hexo init:初始化</li>
 </ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">平行四边形法则</span><br><span class="line">二力平衡公理：二力杆，同一作用线，大小相等，方向相反</span><br><span class="line">加减平衡力学公理：加减一个平衡力系作用情况不变</span><br><span class="line">推论<span class="number">1</span>:力的可传性：作用点可沿作用线移动（仅适用于刚体）</span><br><span class="line">推论<span class="number">2</span>:三力汇交力学平衡（可转化为首尾相连三角形）</span><br><span class="line">作用力反作用力，看作整体时为内力</span><br><span class="line">刚化原理：弹性体力学平衡时看作刚体</span><br></pre></td></tr></table></figure>
+<h3 id="hexo常用命令">hexo常用命令</h3>
 <ul>
-<li>力系分类</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">共点力系</span><br><span class="line">平行力系</span><br><span class="line">平面力系</span><br><span class="line">空间任意力系</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>力与轴共面时力矩为0</p></li>
-<li><p>力系等效：主向量相等，对同一点的主矩相等</p></li>
-<li><p>在力的等效时，需注意力的作用对象必须是同一个</p></li>
-<li><p>力偶：大小相等，方向相反，作用线平行的力组成的力系，其主矩与矩心无关，L=Fd</p></li>
-<li><p>平衡力系：主向量，主矩都等于0</p></li>
-<li><p>不同点力矩关系：<span class="math inline">\(L_O=L_A+\vec{OA}{\times}\vec{R}\)</span>,R为主向量，推论：主向量为0时，对任意点主矩相等</p></li>
-<li><p>不变量：1. R；2. L<span class="math inline">\(\cdot\)</span>R</p></li>
-<li><p>平行力系中心=&gt;重心（另有质心，形心）</p></li>
-<li><p>固定铰：力矩存在</p></li>
-<li><p>固定铰：力沿杆，无力矩</p></li>
-<li><p>桁架结构：杆件数m，节点数n，约束反力数l，若m+l=2 n，可求解。方法：1. 截面法；2. 节点法</p></li>
-<li><p>对称问题，对称力大小相等</p></li>
-<li><p>平面力系平衡问题： <span class="math display">\[
-\sum{F}_x=0;
-\sum{F}_y=0;
-\sum{m}_z=0.\\
-\sum{m}_A=0;
-\sum{m}_B=0;
-\sum{m}_C=0.\\
-\sum{m}_A=0;
-\sum{m}_B=0;
-\sum{F}_L=0.
-L_0为与AB不垂直的单位向量，F_L是在L_0上的投影
-\]</span></p></li>
-<li><p>空间力系平衡问题： <span class="math display">\[
-\sum{F}_x=0;
-\sum{F}_y=0;
-\sum{F}_z=0;\\
-\sum{m}_x=0;
-\sum{m}_y=0;
-\sum{m}_z=0.
-\]</span></p></li>
-<li><p>空间力偶系F条件自动成立</p></li>
-<li><p>空间共点力系m条件自动成立</p></li>
-<li><p>平行于某一根轴时，去掉两个异向力，一个共面力矩</p></li>
-<li><p>静定条件：未知数与独立方程数相同</p></li>
-<li><p>力在摩擦角内自锁</p></li>
-<li><p>绳索中张力沿切线方向，无力矩，不可伸长</p></li>
-<li><p>分布力分段积分处理 ### 二.点的运动学</p></li>
-<li><p>曲率，曲率半径:直角坐标系<span class="math inline">\(\rho=\frac{(1+y&#39;^2)^{3/2}}{|y&quot;|}\)</span>.</p></li>
-<li><p>圆周运动 <span class="math display">\[
-v_{\tau}=\dot{s};
-a_{\tau}=\ddot{s};
-a_n=\frac{v^2}{R}.
-\]</span></p></li>
-<li><p>轮子无滑动滚动时，轮子上与地面接触的那一点瞬时速度为0.</p></li>
-<li><p>速度是坐标变换下的不变量</p></li>
-<li><p>极坐标单位基向量的导数公式：<span class="math inline">\(\frac{d{\rho}_0}{dt}=\dot{\phi}{\phi}_0,\frac{d{\phi}_0}{dt}=-\dot{\phi}{\rho}_0\)</span>.</p></li>
-<li><p>开普勒定律</p></li>
-<li><p>极坐标方程：<span class="math inline">\(\rho=\frac{p}{1+e\cos{(\phi)}}\)</span>,此为右焦点，e为离心率，e=c/a，p为半通径（自焦点垂线长度一半）。</p></li>
-<li></li>
-</ul>
-<h3 id="三.刚体运动和复合运动">三.刚体运动和复合运动</h3>
-<ul>
-<li></li>
-</ul>
-<h3 id="质点动力学">质点动力学</h3>
-<ul>
-<li></li>
-</ul>
-<h3 id="动量定理">动量定理</h3>
-<ul>
-<li></li>
-</ul>
-<h3 id="动量矩定理">动量矩定理</h3>
-<ul>
-<li></li>
-</ul>
-<h3 id="能量定理">能量定理</h3>
-<ul>
-<li></li>
-</ul>
-<h3 id="非惯性参考系中的动力学">非惯性参考系中的动力学</h3>
-<ul>
-<li></li>
-</ul>
-<h3 id="刚体动力学">刚体动力学</h3>
-<ul>
-<li></li>
-</ul>
-<h3 id="分析力学初步">分析力学初步</h3>
-<ul>
-<li></li>
+<li>hexo n name：创建新的博客</li>
+<li>hexo clean:清除缓存等</li>
+<li>hexo g:生成html文件</li>
+<li>hexo s:本地预览</li>
+<li>hexo d:提交</li>
 </ul>
 ]]></content>
   </entry>
