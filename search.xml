@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/09/12/hello-world/</url>
+    <content><![CDATA[<h1 id="第一个博客虽然大多是抄的但总体感觉还是挺简单的">第一个博客，虽然大多是抄的，但总体感觉，还是挺简单的！</h1>
+<a id="more"></a>
+<h3 id="hexo安装">hexo安装</h3>
+<ul>
+<li>npm install -g hexo:安装hexo</li>
+<li>cd hexo</li>
+<li>hexo init:初始化</li>
+</ul>
+<h3 id="hexo常用命令">hexo常用命令</h3>
+<ul>
+<li>hexo n name：创建新的博客</li>
+<li>hexo clean:清除缓存等</li>
+<li>hexo g:生成html文件</li>
+<li>hexo s:本地预览</li>
+<li>hexo d:提交</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>数学</title>
     <url>/2020/10/27/%E6%95%B0%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="考研数学真题遇到的考点">考研数学真题遇到的考点</h1>
@@ -160,7 +181,7 @@ P(X=k)=\frac{ {\lambda}^ke^{-\lambda} }{k!},k=0,1,2...
 \]</span></p></li>
 <li><p>概率密度<em>f</em>(x)反函数公式法</p></li>
 <li><p><span class="math display">\[
-Y=g(X),g&#39;(x)&gt;0恒成立(或g&#39;(x)&lt;0恒成立),-{\infin}&lt;x&lt;{\infin}
+Y=g(X),g&#39;(x)&gt;0恒成立(或g&#39;(x)&lt;0恒成立),-{\infty}&lt;x&lt;{\infty}
 \]</span> <span class="math display">\[
 f_Y(y)=f_X[h(y)]|h&#39;(y)|,\alpha&lt;y&lt;\beta,(其他为0)
 \]</span></p></li>
@@ -168,7 +189,7 @@ f_Y(y)=f_X[h(y)]|h&#39;(y)|,\alpha&lt;y&lt;\beta,(其他为0)
 <li><p>最大似然估计，构建拉格朗日函数<span class="math inline">\(L(\theta)=L(x_1,x_2,...x_n:\theta)=\prod{f(x_i,\theta)}\)</span>求导</p></li>
 <li><p>矩估计</p></li>
 <li><p><span class="math display">\[
-{\mu}_l=E(X^l)=\int_{-\infin}^{\infin}x^lf(x;{\theta}_1,...{\theta}_n)dx
+{\mu}_l=E(X^l)=\int_{-\infty}^{\infty}x^lf(x;{\theta}_1,...{\theta}_n)dx
 \]</span> <span class="math display">\[
 l为阶数，多方程联立，可求出估计值\theta
 \]</span></p></li>
@@ -242,23 +263,103 @@ Cov(X,X)=D(X)
 ]]></content>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/09/12/hello-world/</url>
-    <content><![CDATA[<h1 id="第一个博客虽然大多是抄的但总体感觉还是挺简单的">第一个博客，虽然大多是抄的，但总体感觉，还是挺简单的！</h1>
+    <title>理论力学</title>
+    <url>/2020/11/10/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="理论力学知识点">理论力学知识点</h1>
 <a id="more"></a>
-<h3 id="hexo安装">hexo安装</h3>
+<h3 id="一.静力学">一.静力学</h3>
 <ul>
-<li>npm install -g hexo:安装hexo</li>
-<li>cd hexo</li>
-<li>hexo init:初始化</li>
+<li>静力学公理：</li>
 </ul>
-<h3 id="hexo常用命令">hexo常用命令</h3>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">平行四边形法则</span><br><span class="line">二力平衡公理：二力杆，同一作用线，大小相等，方向相反</span><br><span class="line">加减平衡力学公理：加减一个平衡力系作用情况不变</span><br><span class="line">推论<span class="number">1</span>:力的可传性：作用点可沿作用线移动（仅适用于刚体）</span><br><span class="line">推论<span class="number">2</span>:三力汇交力学平衡（可转化为首尾相连三角形）</span><br><span class="line">作用力反作用力，看作整体时为内力</span><br><span class="line">刚化原理：弹性体力学平衡时看作刚体</span><br></pre></td></tr></table></figure>
 <ul>
-<li>hexo n name：创建新的博客</li>
-<li>hexo clean:清除缓存等</li>
-<li>hexo g:生成html文件</li>
-<li>hexo s:本地预览</li>
-<li>hexo d:提交</li>
+<li>力系分类</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">共点力系</span><br><span class="line">平行力系</span><br><span class="line">平面力系</span><br><span class="line">空间任意力系</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>力与轴共面时力矩为0</p></li>
+<li><p>力系等效：主向量相等，对同一点的主矩相等</p></li>
+<li><p>在力的等效时，需注意力的作用对象必须是同一个</p></li>
+<li><p>力偶：大小相等，方向相反，作用线平行的力组成的力系，其主矩与矩心无关，L=Fd</p></li>
+<li><p>平衡力系：主向量，主矩都等于0</p></li>
+<li><p>不同点力矩关系：<span class="math inline">\(L_O=L_A+\vec{OA}{\times}\vec{R}\)</span>,R为主向量，推论：主向量为0时，对任意点主矩相等</p></li>
+<li><p>不变量：1. R；2. L<span class="math inline">\(\cdot\)</span>R</p></li>
+<li><p>平行力系中心=&gt;重心（另有质心，形心）</p></li>
+<li><p>固定铰：力矩存在</p></li>
+<li><p>固定铰：力沿杆，无力矩</p></li>
+<li><p>桁架结构：杆件数m，节点数n，约束反力数l，若m+l=2 n，可求解。方法：1. 截面法；2. 节点法</p></li>
+<li><p>对称问题，对称力大小相等</p></li>
+<li><p>平面力系平衡问题： <span class="math display">\[
+\sum{F}_x=0;
+\sum{F}_y=0;
+\sum{m}_z=0.\\
+\sum{m}_A=0;
+\sum{m}_B=0;
+\sum{m}_C=0.\\
+\sum{m}_A=0;
+\sum{m}_B=0;
+\sum{F}_L=0.
+L_0为与AB不垂直的单位向量，F_L是在L_0上的投影
+\]</span></p></li>
+<li><p>空间力系平衡问题： <span class="math display">\[
+\sum{F}_x=0;
+\sum{F}_y=0;
+\sum{F}_z=0;\\
+\sum{m}_x=0;
+\sum{m}_y=0;
+\sum{m}_z=0.
+\]</span></p></li>
+<li><p>空间力偶系F条件自动成立</p></li>
+<li><p>空间共点力系m条件自动成立</p></li>
+<li><p>平行于某一根轴时，去掉两个异向力，一个共面力矩</p></li>
+<li><p>静定条件：未知数与独立方程数相同</p></li>
+<li><p>力在摩擦角内自锁</p></li>
+<li><p>绳索中张力沿切线方向，无力矩，不可伸长</p></li>
+<li><p>分布力分段积分处理 ### 二.点的运动学</p></li>
+<li><p>曲率，曲率半径:直角坐标系<span class="math inline">\(\rho=\frac{(1+y&#39;^2)^{3/2}}{|y&quot;|}\)</span>.</p></li>
+<li><p>圆周运动 <span class="math display">\[
+v_{\tau}=\dot{s};
+a_{\tau}=\ddot{s};
+a_n=\frac{v^2}{R}.
+\]</span></p></li>
+<li><p>轮子无滑动滚动时，轮子上与地面接触的那一点瞬时速度为0.</p></li>
+<li><p>速度是坐标变换下的不变量</p></li>
+<li><p>极坐标单位基向量的导数公式：<span class="math inline">\(\frac{d{\rho}_0}{dt}=\dot{\phi}{\phi}_0,\frac{d{\phi}_0}{dt}=-\dot{\phi}{\rho}_0\)</span>.</p></li>
+<li><p>开普勒定律</p></li>
+<li><p>极坐标方程：<span class="math inline">\(\rho=\frac{p}{1+e\cos{(\phi)}}\)</span>,此为右焦点，e为离心率，e=c/a，p为半通径（自焦点垂线长度一半）。</p></li>
+<li></li>
+</ul>
+<h3 id="三.刚体运动和复合运动">三.刚体运动和复合运动</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="质点动力学">质点动力学</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="动量定理">动量定理</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="动量矩定理">动量矩定理</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="能量定理">能量定理</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="非惯性参考系中的动力学">非惯性参考系中的动力学</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="刚体动力学">刚体动力学</h3>
+<ul>
+<li></li>
+</ul>
+<h3 id="分析力学初步">分析力学初步</h3>
+<ul>
+<li></li>
 </ul>
 ]]></content>
   </entry>
