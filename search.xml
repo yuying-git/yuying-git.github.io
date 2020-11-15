@@ -104,31 +104,120 @@ a_n=\frac{v^2}{R}.
 <hr />
 <h3 id="五.动量定理">五.动量定理</h3>
 <ul>
-<li></li>
+<li>质点系动量定理</li>
+<li>质心参考系</li>
+<li>碰撞：冲击力大，忽略常规力，时间短，认定无位移</li>
+<li>恢复系数 <span class="math inline">\(e=\frac{I_2}{I_1}=\frac{v_2-v_1}{v_{10}-v_{20} },I_1压缩冲量，I_2恢复冲量，对应的两个速度差为分离速度和接近速度\)</span>。</li>
+<li>0&lt;=e&lt;=1,e=0时为完全非弹性碰撞（塑性），e=1时为完全弹性碰撞。</li>
+<li>对心碰撞：圆心，接触点共线</li>
+<li>正碰：速度与圆心连线方向相同，反之斜碰</li>
+<li>压缩阶段<span class="math inline">\(\Delta E_{k1}&lt;0\)</span>,恢复阶段<span class="math inline">\(\Delta E_{k2}&gt;0\)</span>.有<span class="math inline">\(\frac{\Delta E_{k2} }{\Delta E_{k1} }=-e^2\)</span>.能量的损失与e有关</li>
+<li>变质量基本运动方程 <span class="math inline">\(m\frac{dv}{dt}=F+\frac{dm}{dt}(u-v)\)</span>.</li>
 </ul>
 <hr />
 <h3 id="六.动量矩定理">六.动量矩定理</h3>
 <ul>
-<li></li>
+<li>惯性质点系动量矩定理 <span class="math inline">\(\frac{dG}{dt}=L\)</span>.</li>
+<li><span class="math inline">\(G_O=G_C+\vec{OC}\times(Mv_C)\)</span>,C为质心</li>
+<li><span class="math inline">\(\frac{dG_A}{dt}=L_A+\vec{AC}\times(-M\frac{dv_A}{dt} )\)</span>.</li>
+<li>转动惯量<span class="math inline">\(J=\int{\rho^2dm}\)</span></li>
+<li>回转半径 <span class="math inline">\(k=\sqrt{J/M}\)</span></li>
+<li>常见转动惯量 <span class="math display">\[
+长为l的细杆，以一端为轴 J=\frac{1}{3}Ml^2\\
+长为l的细杆，以中心为轴 J=\frac{1}{12}Ml^2\\
+半径为R的圆盘或圆柱，以圆心为轴 J=\frac{1}{2}MR^2\\
+半径为R的实心球，以过球心的线为轴 J=\frac{2}{5}MR^2\\
+高为l，半径为R的圆柱以中高度处直径为轴 J=\frac{1}{12}Ml^2+\frac{1}{4}MR^2\\
+半径为R的薄圆盘，以直径为轴 J=\frac{1}{4}MR^2
+\]</span></li>
+<li>垂直轴定理,仅适用于薄板</li>
+<li>平行移轴定理 J<sub>z</sub>=J<sub>c</sub>+Md<sup>2</sup>，C为质心</li>
+<li>将复摆分别以过A,O的轴悬挂时，周期相等，那么A称为O的摆动中心，用锤子敲击A，手握O处，不受冲击力，那么称A为O的打击中心，事实证明两个中心是一个</li>
+<li><span class="math inline">\(J_D\dot{\omega}=L_D+[\vec{DC}\times(-m\vec{a}_D)]\vec{k}\)</span>.</li>
+<li>均匀圆盘沿固定曲线作纯滚动，P为接触点，此时 <span class="math inline">\(J_P\ddot{\phi}=L_P\)</span>成立</li>
+<li>滚动摩阻力矩，与正压力大小成正比</li>
+<li>陀螺力矩又称回转力矩，<span class="math inline">\(-L=-J\frac{d\omega}{dt}=J\omega\times\Omega,\omega为自转角速度，\Omega为进动角速度\)</span>.</li>
 </ul>
 <hr />
 <h3 id="七.能量定理">七.能量定理</h3>
 <ul>
-<li></li>
+<li>重力势能，弹性势能，引力势能</li>
+<li>功率</li>
+<li><span class="math inline">\(dW=R{\cdot}dr_A+L_A{\cdot}wdt\)</span>.</li>
+<li>纯滚动摩擦力不做功，相对位移为0</li>
+<li>保守力场为梯度场，旋度（rot）为0</li>
+<li>准静态过程：移动过程中每一点都可以将质点当作平衡状态处理</li>
+<li>势能为0的等势面称为0势能面</li>
+<li>通过力场中任意点的力线与等势能面正交</li>
+<li>柯尼希定理：质点系的动能等于质心动能加上相对于质心平动参考系的动能</li>
+<li>动能变化定理：系统动能微分等于外力元功与内力元功</li>
+<li>能量守恒定律</li>
 </ul>
 <hr />
 <h3 id="八.非惯性参考系中的动力学">八.非惯性参考系中的动力学</h3>
 <ul>
-<li></li>
+<li>惯性力：牵连惯性力，科氏惯性力</li>
+<li>两种情况下科氏力为0: 1.平动非惯性参考系；2.在非惯性系中相对静止</li>
+<li><span class="math inline">\(\frac{d}{dt}(Mv_C)=R-M[a_o+\epsilon\times r_C+\omega\times(\omega\times r_C)]-2\omega\times(Mv_C)\)</span>.</li>
+<li>非惯性参考系中，科氏力不做功，牵连惯性力做功</li>
+<li>相对地球运动时，铅垂线不通过地球中心，受自转影响，g为表观重力加速度，自由落体东偏</li>
 </ul>
 <hr />
 <h3 id="九.刚体动力学">九.刚体动力学</h3>
 <ul>
-<li></li>
+<li><span class="math inline">\(T=\frac{1}{2}\omega\cdot G\)</span></li>
 </ul>
+<p><span class="math display">\[
+\begin{equation}
+{\left[\begin{array}{ccc}
+G_{\xi}\\
+G_{\eta}\\
+G_{\zeta}
+\end{array}\right]} =
+{\left[\begin{array}{ccc}
+J_{\xi} &amp; -J_{\xi\eta} &amp; -J_{\xi\zeta}\\
+-J_{\eta\xi} &amp; J_{\eta} &amp; -J_{\eta\zeta}\\
+-J_{\zeta\xi} &amp; -J_{\zeta\eta} &amp; J_{\zeta}
+\end{array}\right]}
+{\left[\begin{array}{ccc}
+\omega_{\xi}\\
+\omega_{\eta}\\
+\omega_{\zeta}
+\end{array}\right]}
+\end{equation}=J\omega
+\\J称为惯量矩阵
+\]</span> - 一个把向量变成向量的线性变换叫做二阶张量 - 惯量矩阵的平行移轴定理 <span class="math display">\[
+J_O=J_C+M
+\begin{equation}
+{\left[\begin{array}{ccc}
+(b^2+c^2) &amp; -ab &amp; -ac\\
+-ab &amp; (c^2+a^2) &amp; -bc\\
+-ac &amp; -bc &amp; (a^2+b^2)
+\end{array}\right]}
+\end{equation}
+\\C位于原点，O位于（a,b）
+\]</span> - 转动惯量的转轴公式 <span class="math display">\[
+J_{OA}=J_{\xi}\cos^2\alpha+J_\eta\cos^2\beta+J_{\zeta}\cos^2\gamma-2J_{\xi\eta}\cos{\alpha}\cos\beta-2J_{\eta\zeta}\cos\beta\cos\gamma-2J_{\zeta\xi}\cos\gamma\cos\alpha
+\]</span> - 惯量椭球 <span class="math display">\[
+J_{\xi}\xi^2+J_\eta\eta^2+J_{\zeta}\zeta^2-2J_{\xi\eta}\xi\eta-2J_{\eta\zeta}\eta\zeta-2J_{\zeta\xi}\zeta\xi=k^2
+\\惯量椭球的主轴称为惯量主轴，相应的惯量J_1,J_2,J_3称为主惯量
+\\J_1,J_2,J_3相等时，O的任意3个正交方向向量都是主轴方向，此时为球
+\]</span> - 通过质心的惯量主轴称为中心惯量主轴，简称中心主轴 - 均质刚体的对称轴必是中心主轴 - 垂直于对称平面的直线必是惯量主轴 - 均质旋转体的旋转轴必是中心主轴 <span class="math display">\[
+G=J_1\omega_1e_1+J_2\omega_2e_2+J_3\omega_3e_3\\
+T=\frac{1}{2}(J_1\omega_1^2+J_2\omega_2^2+J_3\omega_3^3)
+\]</span> - 刚体定点运动的动力学方程——欧拉方程 <span class="math display">\[
+J_1\dot{\omega}_1+(J_3-J_2)\omega_2\omega_3=L_1\\
+J_2\dot{\omega}_2+(J_1-J_3)\omega_3\omega_1=L_2\\
+J_3\dot{\omega}_3+(J_2-J_1)\omega_1\omega_2=L_3
+\]</span> - 刚体绕固定轴作匀速转动时的外力矩 <span class="math display">\[
+L_1=(J_3-J_2)\omega^2\sin\theta\cos\theta\cos\phi\\
+L_2=(J_1-J_3)\omega^2\sin\theta\cos\theta\sin\phi\\
+L_3=(J_2-J_1)\omega^2\sin^2\theta\sin\phi\cos\phi
+\]</span> - Resal 坐标系</p>
 <hr />
 <h3 id="十.分析力学初步">十.分析力学初步</h3>
 <ul>
+<li>虚位移原理</li>
 <li></li>
 </ul>
 <hr />
@@ -178,7 +267,7 @@ a_n=\frac{v^2}{R}.
 {\rho}=\frac{1}{\sqrt[n]{|a_n|}}=\frac{1}{lim|\frac{a_{n+1}}{a_n}|}
 \]</span></p></li>
 <li><p>幂级数 <span class="math inline">\(\sum_{n=1}^{\infty}{a_n(bx-c)^n}\)</span>，此时若收敛域为<span class="math inline">\([x_1,x_2)\)</span>，且满足<span class="math inline">\(\frac{x_1+x_2}{2}b=c\)</span>，则收敛半径为<span class="math inline">\(\frac{x_2-x_1}{2}|b|\)</span>.</p></li>
-<li><p>多元函数求极值，极小值主子式大于0，极大值偶数主子式大于0，奇数主子式小于0</p></li>
+<li><p>多元函数求极值，雅克比矩阵，极小值主子式大于0，极大值偶数主子式大于0，奇数主子式小于0</p></li>
 <li><p>反常积分的收敛性</p></li>
 <li><p><span class="math display">\[
 对于瑕点x=a：
@@ -199,7 +288,7 @@ a_n=\frac{v^2}{R}.
 <h3 id="解析几何">解析几何</h3>
 <ul>
 <li>点面距离</li>
-<li>渐近线</li>
+<li>渐近线：竖直，水平，y=kx+b,后两个可利用无穷处极限求出</li>
 <li>绕x轴旋转，则y变成 <span class="math inline">\(\sqrt{y^2+z^2}\)</span></li>
 </ul>
 <hr />
@@ -265,6 +354,7 @@ rank(A^*)=0,rank(A)&lt;n-1
 <ul>
 <li><p>摸球案例，不放回与放回（可重复），相当于多次实验，而一次摸多球，则可以用组合数公式 <span class="math inline">\(C_n^m=\frac{n!}{m!(n-m)!}\)</span> 列举可能性个数</p></li>
 <li><p>均匀分布 <span class="math inline">\(X{\sim}U(a,b);E(X)=\frac{a+b}{2};D(X)=\frac{(a+b)^2}{12}\)</span></p></li>
+<li><p>指数分布 概率密度<span class="math inline">\(f(x)=\frac{1}{\theta}e^{-x/\theta},x&gt;0;其他f(x)=0,E(X)={\theta},D(X)={\theta}^2\)</span>.在12年的一个考题中，提到参数，为<span class="math inline">\(\lambda=\frac{1}{\theta}\)</span>.</p></li>
 <li><p>条件概率 <span class="math inline">\(P(A|B)=\frac{P(AB)}{P(B)}\)</span></p></li>
 <li><p>正态分布</p></li>
 <li><p><span class="math display">\[
@@ -356,7 +446,8 @@ Cov(X,X)=D(X)
 \]</span></p></li>
 <li><p>相关系数</p></li>
 <li><p><span class="math display">\[
-{\rho}_{XY}=\frac{Cov(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}，X,Y不相关时\rho_{XY}=0
+{\rho}_{XY}=\frac{Cov(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}，X,Y不相关时\rho_{XY}=0\\
+\rho=1,正相关；\rho=-1,负相关
 \]</span></p></li>
 <li><p>二维正态分布 <span class="math inline">\((X_1,X_2) \sim N(\mu_1,\mu_2;\sigma_1^2,\sigma_2^2;\rho)\)</span>,X<sub>1</sub>和X<sub>2</sub>相互独立且不相关。</p></li>
 </ul>
