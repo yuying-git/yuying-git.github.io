@@ -217,8 +217,33 @@ L_3=(J_2-J_1)\omega^2\sin^2\theta\sin\phi\cos\phi
 <hr />
 <h3 id="十.分析力学初步">十.分析力学初步</h3>
 <ul>
-<li>虚位移原理</li>
-<li></li>
+<li>虚位移原理：具有定常、理想约束的质点系其平衡的充要条件是虚功之和为0（或者是所有的广义力为0）</li>
+<li>广义力：<span class="math inline">\(Q_j=\sum_{i=1}^{n}{F_i\cdot\frac{\partial r_i}{\partial q_j} }\)</span>,(j=1,2,3…s)</li>
+<li>主动力有势，则<span class="math inline">\(Q_j=-\frac{\partial V}{\partial q_j}\)</span>.</li>
+<li>约束分类：1.完整、非完整（位置和速度）；2.定常、非定常（显含时间）；3.双向、单向（等式）。</li>
+<li>拉格朗日力学、哈密顿力学</li>
+<li>L = T - V，拉格朗日函数</li>
+<li>如果在L中不显含某个广义坐标q<sub>j</sub>，则这个坐标称为循环坐标</li>
+<li>拉格朗日方程： <span class="math display">\[
+\frac{d}{dt}(\frac{\partial T}{\partial\dot{q}_i})-\frac{\partial T}{\partial q_i}+\frac{\partial V}{\partial q_i}=0\\
+\frac{d}{dt}(\frac{\partial T}{\partial\dot{q}_i})-\frac{\partial T}{\partial q_i}=Q_i+\lambda\frac{\partial f}{\partial q_i}\\
+\frac{d}{dt}(\frac{\partial L}{\partial\dot{q}_i})-\frac{\partial L}{\partial q_i}=0
+\]</span></li>
+<li>自由度：一个刚体有6个自由度，一个球形铰链减少3个，一个平面铰链减少5个</li>
+<li>任意两个可能位移之差称为虚位移</li>
+<li>理想约束：力在虚位移上作的功叫做虚功，虚功为0则此约束是理想约束</li>
+<li>达朗伯原理：作用于质点的损失力在每一瞬时位置都被约束力所平衡，损失力=主动力-ma=主动力+惯性力=&gt;动静法，将动力学问题转变为静力学问题</li>
+<li>广义速度，广义动量，广义能量</li>
+<li>振型，特征向量</li>
+<li>固有频率，特征值</li>
+<li>质量矩阵，刚度矩阵</li>
+<li>哈密顿函数<span class="math inline">\(H=\frac{p_x^2+p_y^2}{2m}\)</span>.</li>
+<li>哈密顿正则方程 <span class="math display">\[
+\dot{q}_j=\frac{\partial H}{\partial p_j}\\
+\dot{p}_j=-\frac{\partial H}{\partial q_j}
+\]</span></li>
+<li>如果H中不显含某个广义坐标q<sub>j</sub>，则对应的广义动量p<sub>j</sub>守恒</li>
+<li>如果H中不显含时间t，则广义能量H守恒</li>
 </ul>
 <hr />
 ]]></content>
